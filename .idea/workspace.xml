@@ -18,17 +18,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f019036-9f81-4789-be87-877b529256fe" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Eefret\IdeaProjects\CmyCountry\res\drawable\10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Eefret\IdeaProjects\CmyCountry\res\drawable\11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Eefret\IdeaProjects\CmyCountry\res\drawable\12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Eefret\IdeaProjects\CmyCountry\res\drawable\5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Eefret\IdeaProjects\CmyCountry\res\drawable\6.JPG" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Eefret\IdeaProjects\CmyCountry\res\drawable\7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Eefret\IdeaProjects\CmyCountry\res\drawable\8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Eefret\IdeaProjects\CmyCountry\res\drawable\9.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/obrero/cmycountry/activities/Home.java" afterPath="$PROJECT_DIR$/src/com/obrero/cmycountry/activities/Home.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/obrero/cmycountry/services/WallpaperService.java" afterPath="$PROJECT_DIR$/src/com/obrero/cmycountry/services/WallpaperService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CmyCountry.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,10 +82,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Home.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Home.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/activities/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="0" selection-start="2415" selection-end="2415" vertical-scroll-proportion="0.79761904" vertical-offset="483" max-vertical-offset="1819">
+            <state line="16" column="24" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="2159">
               <folding />
             </state>
           </provider>
@@ -104,8 +94,10 @@
       <file leaf-file-name="DrawerItemAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/DrawerItemAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
-              <folding />
+            <state line="21" column="48" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,13 +105,8 @@
       <file leaf-file-name="DrawerItem.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/dto/DrawerItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="5" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-              <folding>
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-              </folding>
+            <state line="10" column="5" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="442">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,21 +114,17 @@
       <file leaf-file-name="HomeFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/HomeFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="3" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="4" column="3" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WallpaperService.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="WallpaperService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/services/WallpaperService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="32" selection-start="2133" selection-end="2133" vertical-scroll-proportion="0.0" vertical-offset="857" max-vertical-offset="1530">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1053#1440#0" expanded="true" />
-                <element signature="e#1429#1430#0" expanded="true" />
-              </folding>
+            <state line="19" column="27" selection-start="460" selection-end="460" vertical-scroll-proportion="0.20238096" vertical-offset="0" max-vertical-offset="1275">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,7 +132,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+            <state line="18" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -217,6 +200,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -499,7 +483,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmycountry" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -519,7 +507,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -537,6 +524,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -813,11 +801,18 @@
       <updated>1393661308937</updated>
       <workItem from="1393661312496" duration="3714000" />
       <workItem from="1393665794375" duration="7616000" />
+      <workItem from="1393674300448" duration="362000" />
+      <workItem from="1393674716511" duration="746000" />
     </task>
+    <task id="LOCAL-00001" summary=":D&#10;">
+      <created>1393674844887</created>
+      <updated>1393674844887</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11330000" />
+    <option name="totallyTimeSpent" value="12438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -828,7 +823,6 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3306189" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -836,7 +830,7 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7149837" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -845,12 +839,13 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -866,6 +861,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value=":D&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value=":D&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -875,6 +872,94 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/activities/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="24" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/DrawerItemAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1156">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/dto/DrawerItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="5" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/HomeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/services/WallpaperService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="27" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1547">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/activities/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="0" selection-start="2415" selection-end="2415" vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="1819">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/DrawerItemAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1190">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/dto/DrawerItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="5" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/HomeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/services/WallpaperService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="32" selection-start="2133" selection-end="2133" vertical-scroll-proportion="0.0" vertical-offset="857" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/activities/Home.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="87" column="43" selection-start="2549" selection-end="2549" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
@@ -892,11 +977,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/services/WallpaperService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="37" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="697">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1053#1440#0" expanded="true" />
-            <element signature="e#1429#1430#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -951,12 +1032,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/dto/DrawerItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="5" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -967,69 +1043,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/DrawerItemAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+        <state line="18" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.IntelliJIdea13/system/compile-server/cmycountry_8d024073/targets/java-production/CmyCountry/android/generated_sources/aapt/com/obrero/cmycountry/R.java">
+    <entry file="file://$USER_HOME$/.IntelliJIdea13/system/compile-server/cmycountry_8d024073/targets/java-production/CmyCountry/android/generated_sources/aapt/com/obrero/CMyCountry/R.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="504" selection-end="504" vertical-scroll-proportion="0.3316062" vertical-offset="76" max-vertical-offset="884">
+        <state line="17" column="31" selection-start="504" selection-end="504" vertical-scroll-proportion="0.3316062" vertical-offset="76" max-vertical-offset="884" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ant.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CmyCountry.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/activities/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="24" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2159">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/DrawerItemAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="48" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/services/WallpaperService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="32" selection-start="2133" selection-end="2133" vertical-scroll-proportion="0.0" vertical-offset="857" max-vertical-offset="1530">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1053#1440#0" expanded="true" />
-            <element signature="e#1429#1430#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ant.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CmyCountry.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/activities/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="2415" selection-end="2415" vertical-scroll-proportion="0.79761904" vertical-offset="483" max-vertical-offset="1819">
+        <state line="19" column="27" selection-start="460" selection-end="460" vertical-scroll-proportion="0.20238096" vertical-offset="0" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
