@@ -14,10 +14,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 import com.obrero.cmycountry.R;
 import com.obrero.cmycountry.adapter.DrawerItemAdapter;
 import com.obrero.cmycountry.dto.DrawerItem;
-import com.obrero.cmycountry.fragments.HomeFragment;
+import com.obrero.cmycountry.fragments.*;
 import com.obrero.cmycountry.services.WallpaperService;
 
 import java.util.ArrayList;
@@ -37,7 +38,6 @@ public class Home extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-
 
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawerList = (ListView) findViewById(R.id.left_drawer);
@@ -61,7 +61,12 @@ public class Home extends Activity {
         };
 
         ArrayList<DrawerItem> entries = new ArrayList<DrawerItem>(1);
-        entries.add(new DrawerItem(R.drawable.circle));
+        entries.add(new DrawerItem(R.drawable.circle,"Home"));
+        entries.add(new DrawerItem(R.drawable.circle,"Places"));
+        entries.add(new DrawerItem(R.drawable.circle,"Path"));
+        entries.add(new DrawerItem(R.drawable.circle,"Recomentadions"));
+        entries.add(new DrawerItem(R.drawable.circle,"Map"));
+
         DrawerItemAdapter adapter = new DrawerItemAdapter(this, entries);
         drawerList.setAdapter(adapter);
 
@@ -69,10 +74,10 @@ public class Home extends Activity {
 
         drawerLayout.setDrawerListener(drawerToggle);
 
-        //getActionBar().setHomeButtonEnabled(true);
-
         Intent i = new Intent(getApplicationContext(), WallpaperService.class);
         startService(i);
+
+        selectItem(0);
     }
 
     @Override
@@ -107,15 +112,31 @@ public class Home extends Activity {
         }
     }
 
-
     public void selectItem(int position){
-        Fragment fragment= null;
+        Fragment fragment;
         switch (position){
             case 0:
                 fragment = new HomeFragment();
-               break;
-
+                break;
+            case 1:
+                fragment = new PlaceFragment();
+                break;
+            case 2:
+                fragment = new PathFragment();
+                break;
+            case 3:
+                fragment = new RecomendationsFragment();
+                break;
+            case 4:
+                fragment = new MapFragment();
+                break;
+            default:
+                fragment = new PathFragment();
+                break;
         }
-         getFragmentManager().beginTransaction().replace(R.id.content_frame,fragment).commit();
+
+        Toast.makeText(this,"Clikc " + position,0).show();
+
+        getFragmentManager().beginTransaction().replace(R.id.content_frame,fragment).commit();
     }
 }

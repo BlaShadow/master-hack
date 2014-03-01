@@ -8,14 +8,12 @@ import android.view.ViewGroup;
 import com.obrero.cmycountry.R;
 
 /**
- * Created by Eefret on three/one/14.
+ * Created by BlackShadow on 3/1/14.
  */
-public class HomeFragment extends Fragment {
-    public HomeFragment(){}
-
+public class MapFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.home_fragment_layout, container, false);
+        View rootView = inflater.inflate(R.layout.map_fragment_layout, container, false);
 
         return rootView;
     }

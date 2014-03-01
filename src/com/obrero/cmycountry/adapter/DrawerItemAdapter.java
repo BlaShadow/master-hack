@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.TextView;
 import com.obrero.cmycountry.R;
 import com.obrero.cmycountry.dto.DrawerItem;
 
@@ -31,11 +32,15 @@ public class DrawerItemAdapter extends ArrayAdapter<DrawerItem> {
     public View getView(int position, View convertView, ViewGroup parent) {
         DrawerItemHolder holder;
         ImageView icon;
-
+        DrawerItem item = getItem(position);
 
         if(convertView == null){
             LayoutInflater inflater = LayoutInflater.from(context);
             convertView = inflater.inflate(R.layout.drawer_item,parent,false);
+
+            TextView title = (TextView)convertView.findViewById(R.id.drawer_item_txt);
+            title.setText(item.getTitle());
+
             icon = (ImageView) convertView.findViewById(R.id.drawer_item_icon);
             holder = new DrawerItemHolder(icon);
             convertView.setTag(holder);
@@ -43,8 +48,6 @@ public class DrawerItemAdapter extends ArrayAdapter<DrawerItem> {
 
         holder = (DrawerItemHolder) convertView.getTag();
         holder.getIcon().setImageResource(entries.get(position).getIcon());
-
-
 
         return convertView;
     }
