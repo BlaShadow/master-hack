@@ -1,6 +1,9 @@
 package com.obrero.cmycountry.activities;
 
 import android.app.Activity;
+import android.app.Fragment;
+import android.app.FragmentManager;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
@@ -14,6 +17,8 @@ import android.widget.ListView;
 import com.obrero.cmycountry.R;
 import com.obrero.cmycountry.adapter.DrawerItemAdapter;
 import com.obrero.cmycountry.dto.DrawerItem;
+import com.obrero.cmycountry.fragments.HomeFragment;
+import com.obrero.cmycountry.services.WallpaperService;
 
 import java.util.ArrayList;
 
@@ -64,9 +69,10 @@ public class Home extends Activity {
 
         drawerLayout.setDrawerListener(drawerToggle);
 
-        getActionBar().setHomeButtonEnabled(true);
+        //getActionBar().setHomeButtonEnabled(true);
 
-
+        Intent i = new Intent(getApplicationContext(), WallpaperService.class);
+        startService(i);
     }
 
     @Override
@@ -103,6 +109,13 @@ public class Home extends Activity {
 
 
     public void selectItem(int position){
+        Fragment fragment= null;
+        switch (position){
+            case 0:
+                fragment = new HomeFragment();
+               break;
 
+        }
+         getFragmentManager().beginTransaction().replace(R.id.content_frame,fragment).commit();
     }
 }
