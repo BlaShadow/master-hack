@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -24,4 +25,24 @@
 
     </LinearLayout>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+            android:id="@+id/drawer_item_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_margin="3dp"
+              android:layout_toRightOf="@+id/drawer_item_icon"
+              android:textColor="@android:color/white"
+              android:layout_height="wrap_content"
+              android:id="@+id/drawer_item_txt"/>
+
+>>>>>>> 0b18ee89ce8fddd39c61b81b4fd0a38ed4c35792
 </RelativeLayout>

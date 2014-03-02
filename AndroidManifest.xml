@@ -18,10 +18,16 @@
     <application
             android:label="@string/app_name"
             android:icon="@drawable/ic_launcher">
+			<receiver android:name=".broadcasts.HomeBroadcast"/>
         <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAiMcbWGKnfFgqvhSk_hRmGCGJKf7fsq1E"/>
         <service android:name=".services.WallpaperService"
                  android:icon="@drawable/ic_launcher"
                  android:label="WallpaperService"/>
+		
+        <service android:name=".services.LocationService"
+                 android:icon="@drawable/ic_launcher"
+                 android:label="LocationService"/>
+				 
         <activity android:name=".activities.Home"
                 android:label="@string/app_name"
                 android:theme="@android:style/Theme.NoTitleBar">
@@ -38,3 +44,4 @@
         <uses-library android:name="com.google.android.maps"/>
     </application>
 </manifest>
+

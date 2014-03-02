@@ -1,6 +1,17 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CmyCountry</string>
     <string name="open_drawer">open</string>
     <string name="close_drawer">close</string>
 </resources>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CmyCountry</string>
+    <string name="open_drawer">open</string>
+    <string name="close_drawer">close</string>
+    <string name="placeNotificationTitle">Es hora de conocer</string>
+    <string name="otherPlaces">Otros Lugares</string>
+</resources>
+>>>>>>> 0b18ee89ce8fddd39c61b81b4fd0a38ed4c35792
