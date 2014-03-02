@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="libproject">
+  <library name="google-play-services_lib">
     <CLASSES>
-      <root url="file://$USER_HOME$/android-sdks/extras/google/google_play_services/libproject" />
+      <root url="file://$USER_HOME$/android-sdks/extras/google/google_play_services/libproject/google-play-services_lib" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

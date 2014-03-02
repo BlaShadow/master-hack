@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="horizontal">
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/header_03"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/header_03"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/header_03"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentTop="true"
+              android:textSize="25sp"
+              android:padding="5dp"
+              android:textColor="@android:color/black"
+              android:background="@android:color/white"
+              android:id="@+id/txt_path_name_path_details"/>
+
+    <TextView android:layout_width="fill_parent"
+              android:visibility="gone"
+              android:layout_height="wrap_content"
+              android:layout_alignParentTop="true"
+              android:textSize="25sp"
+              android:padding="5dp"
+              android:textColor="@android:color/black"
+              android:background="@android:color/white"
+              android:id="@+id/txt_details_path_details"/>
+
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lv_places_path_details"/>
+</LinearLayout>
+
+

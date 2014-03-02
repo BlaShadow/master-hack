@@ -1,12 +1,15 @@
 package com.obrero.cmycountry.fragments;
 
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import com.obrero.cmycountry.R;
+import com.obrero.cmycountry.activities.PathDetailsActivity;
 import com.obrero.cmycountry.adapter.PathAdapter;
 import com.obrero.cmycountry.adapter.PlaceAdapter;
 import com.obrero.cmycountry.dto.Path;
@@ -37,6 +40,14 @@ public class PathFragment extends Fragment {
 
         ListView lv = (ListView)rootView.findViewById(R.id.lv_path_fragment);
         lv.setAdapter(adapter);
+
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent tmpIntent = new Intent(getActivity(),PathDetailsActivity.class);
+                startActivity(tmpIntent);
+            }
+        });
 
         return rootView;
     }

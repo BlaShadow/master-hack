@@ -41,4 +41,9 @@ public class PlaceDetailsActivity extends Activity {
             }
         });
     }
+
+    public void toMap(View btn){
+        Intent tmpIntent = new Intent(this,MapActivity.class);
+        startActivity(tmpIntent);
+    }
 }

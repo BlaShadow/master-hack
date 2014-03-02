@@ -2,6 +2,7 @@ package com.obrero.cmycountry.activities;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+
 import com.obrero.cmycountry.R;
 import com.obrero.cmycountry.dto.Place;
 
@@ -36,12 +37,12 @@ public class MapActivity extends FragmentActivity {
 
     public void DrawOnMap(List<Place> places){
 
-/*        map.addMarker(new MarkerOptions()
+        /*map.addMarker(new MarkerOptions()
                 .position(new LatLng(19.079552, -70.824278))
                 .title("Titulo")
                 .snippet("Descirpcion place")
                 .icon(BitmapDescriptorFactory.fromResource(R.drawable.location_icon)));
-*/
+        */
         //19.079552, -70.824278
     }
 
