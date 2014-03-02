@@ -92,6 +92,11 @@ public class Home extends Activity {
         selectItem(0);
     }
 
+    public void toMap(View btn){
+        Intent tmpIntent = new Intent(this,MapActivity.class);
+        startActivity(tmpIntent);
+    }
+
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);

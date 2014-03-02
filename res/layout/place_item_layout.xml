@@ -6,20 +6,23 @@
               android:layout_margin="10dp"
               android:padding="4dp">
 
-    <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/header_img_items"
-            />
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
 
-    <TextView android:layout_width="fill_parent"
-              android:layout_height="wrap_content"
-              android:layout_alignParentTop="true"
-              android:textSize="25sp"
-              android:padding="5dp"
-              android:textColor="@android:color/black"
-              android:background="@android:color/white"
-              android:id="@+id/txt_name_item_place"/>
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/header_img_items"/>
+
+        <TextView android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:textSize="25sp"
+                  android:padding="5dp"
+                  android:textColor="@android:color/black"
+                  android:background="@android:color/white"
+                  android:id="@+id/txt_name_item_place"/>
+    </RelativeLayout>
 
     <TextView android:layout_width="fill_parent"
               android:layout_height="fill_parent"

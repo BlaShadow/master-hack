@@ -3,6 +3,7 @@ package com.obrero.cmycountry.broadcasts;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.widget.Toast;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,6 +14,6 @@ import android.content.Intent;
  */
 public class HomeBroadcast extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
-
+        Toast.makeText(context,"Nice",0).show();
     }
 }
