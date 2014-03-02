@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="36dip"
+                android:background="@android:color/white">
+
+    <ImageView
+            android:id="@+id/full_image_comment_user_image"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:layout_margin="4dip"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_launcher"
+            android:background="@android:color/holo_blue_light"
+            />
+    <TextView
+            android:id="@+id/full_image_comment_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dip"
+            android:layout_marginLeft="4dip"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="8sp"
+            android:text="12/12/2014"
+            android:layout_toRightOf="@id/full_image_comment_user_image"
+            android:layout_alignParentTop="true"/>
+    <TextView
+            android:id="@+id/full_image_comment_comment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginBottom="4dip"
+            android:layout_marginLeft="4dip"
+            android:textColor="@android:color/black"
+            android:text="Lorem Ipsum"
+            android:layout_toRightOf="@id/full_image_comment_user_image"
+            android:layout_toEndOf="@id/full_image_comment_date"
+            android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>
