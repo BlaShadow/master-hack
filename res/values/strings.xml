@@ -3,6 +3,9 @@
     <string name="app_name">CmyCountry</string>
     <string name="open_drawer">open</string>
     <string name="close_drawer">close</string>
+<<<<<<< HEAD
     <string name="placeNotificationTitle">Es hora de conocer</string>
     <string name="otherPlaces">Otros Lugares</string>
+=======
+>>>>>>> e460cbf2de20bc43499fb393c61aaf531a2ea3ad
 </resources>

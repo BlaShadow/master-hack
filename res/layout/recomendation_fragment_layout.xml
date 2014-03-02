@@ -8,4 +8,5 @@
               android:layout_height="match_parent"
               android:dividerHeight="4dp"
               android:id="@+id/lv_place_fragment"/>
+
 </LinearLayout>
