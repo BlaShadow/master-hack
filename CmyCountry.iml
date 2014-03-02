@@ -15,8 +15,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="android-support-v13" level="project" />
     <orderEntry type="library" exported="" name="google-play-services" level="project" />
+    <orderEntry type="library" exported="" name="libproject" level="project" />
+    <orderEntry type="library" exported="" name="android-support-v13" level="project" />
   </component>
 </module>
 

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <style name="CmyCountry.SimpleFadeFragmentAnimation" parent="">
         <item name="android:fragmentFadeEnterAnimation">@animator/fade_in</item>
         <item name="android:fragmentFadeExitAnimation">@animator/fade_out</item>
     </style>
+
+    <color name="dark_surface">#fff</color>
+    <color name="white_surface">#000</color>
+
 </resources>

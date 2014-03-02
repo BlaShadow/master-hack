@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <HorizontalScrollView android:layout_width="match_parent"
+                          android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/header_img_items"/>
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/header_01"/>
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/header_02"/>
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/header_img_items"/>
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:orientation="vertical"
+                      android:background="@android:color/white"
+                      android:layout_height="fill_parent">
+
+            <TextView android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentTop="true"
+                      android:textColor="@android:color/black"
+                      android:textSize="25sp"
+                      android:padding="5dp"
+                      android:id="@+id/txt_name_details_place"/>
+
+            <TextView android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentTop="true"
+                      android:textSize="25sp"
+                      android:padding="5dp"
+                      android:id="@+id/txt_details_details_place"/>
+
+            <TextView android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentTop="true"
+                      android:textSize="25sp"
+                      android:padding="5dp"
+                      android:id="@+id/txt_more_details_place"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

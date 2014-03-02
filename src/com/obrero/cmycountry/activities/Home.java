@@ -26,6 +26,7 @@ import java.util.ArrayList;
 public class Home extends Activity {
 
     private static final String TAG = "Home";
+    public static String ExtraFragment = "fragmentKey";
 
     private DrawerLayout drawerLayout;
     private ListView drawerList;
@@ -61,11 +62,11 @@ public class Home extends Activity {
         };
 
         ArrayList<DrawerItem> entries = new ArrayList<DrawerItem>(1);
-        entries.add(new DrawerItem(R.drawable.circle,"Home"));
+        entries.add(new DrawerItem(R.drawable.circle,"Inicio"));
         entries.add(new DrawerItem(R.drawable.circle,"Places"));
-        entries.add(new DrawerItem(R.drawable.circle,"Path"));
-        entries.add(new DrawerItem(R.drawable.circle,"Recomentadions"));
-        entries.add(new DrawerItem(R.drawable.circle,"Map"));
+        entries.add(new DrawerItem(R.drawable.circle,"Rutas"));
+        entries.add(new DrawerItem(R.drawable.circle,"Recomendaciones"));
+        entries.add(new DrawerItem(R.drawable.circle,"Mapa"));
 
         DrawerItemAdapter adapter = new DrawerItemAdapter(this, entries);
         drawerList.setAdapter(adapter);
@@ -76,6 +77,13 @@ public class Home extends Activity {
 
         Intent i = new Intent(getApplicationContext(), WallpaperService.class);
         startService(i);
+
+        if( getIntent().hasExtra(ExtraFragment) ){
+
+            if( getIntent().getStringExtra(ExtraFragment).equals("PLACEDETAIL") ){
+                selectItem(0);
+            }
+        }
 
         selectItem(0);
     }
@@ -116,7 +124,7 @@ public class Home extends Activity {
         Fragment fragment;
         switch (position){
             case 0:
-                fragment = new HomeFragment();
+                fragment = new PlaceDetailsFragment(0);
                 break;
             case 1:
                 fragment = new PlaceFragment();
@@ -128,8 +136,11 @@ public class Home extends Activity {
                 fragment = new RecomendationsFragment();
                 break;
             case 4:
-                fragment = new MapFragment();
-                break;
+                Intent tmpIntent = new Intent(this,MapActivity.class);
+                startActivity(tmpIntent);
+
+                drawerLayout.closeDrawer(drawerList);
+                return;
             default:
                 fragment = new PathFragment();
                 break;
@@ -138,5 +149,6 @@ public class Home extends Activity {
         Toast.makeText(this,"Clikc " + position,0).show();
 
         getFragmentManager().beginTransaction().replace(R.id.content_frame,fragment).commit();
+        drawerLayout.closeDrawer(drawerList);
     }
 }

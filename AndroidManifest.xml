@@ -5,25 +5,24 @@
           android:versionName="1.0">
 
     <uses-sdk android:minSdkVersion="17"/>
-    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
 
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
 
-    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
+    <user-permission android:name="android.os.Bundle.permission.MAPS_RECEIVE" android:protectionLevel="signature" />
 
     <application
             android:label="@string/app_name"
             android:icon="@drawable/ic_launcher">
-        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAszSuY-NdoMnJv3wyTVE5F4Drn5apx7E4"/>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAiMcbWGKnfFgqvhSk_hRmGCGJKf7fsq1E"/>
         <service android:name=".services.WallpaperService"
                  android:icon="@drawable/ic_launcher"
                  android:label="WallpaperService"/>
-
-        <activity
-                android:name=".activities.Home"
+        <activity android:name=".activities.Home"
                 android:label="@string/app_name"
                 android:theme="@android:style/Theme.NoTitleBar">
             <intent-filter>
@@ -31,5 +30,10 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity android:name=".activities.PlaceDetailsActivity" android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity android:name=".activities.MapActivity" android:theme="@android:style/Theme.NoTitleBar" />
+        <uses-library android:name="com.google.android.maps"/>
     </application>
 </manifest>
