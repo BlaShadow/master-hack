@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.obrero.cmycountry"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="16"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:label="@string/app_name"
+            android:icon="@drawable/ic_launcher">
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAszSuY-NdoMnJv3wyTVE5F4Drn5apx7E4"/>
+        <service android:name=".services.WallpaperService"
+                 android:icon="@drawable/ic_launcher"
+                 android:label="WallpaperService"/>
+
+        <service android:name=".services.LocationService"
+                 android:icon="@drawable/ic_launcher"
+                 android:label="LocationService"/>
+
+        <activity
+                android:name=".activities.Home"
+                android:label="@string/app_name"
+                android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name=".broadcasts.HomeBroadcast"/>
+    </application>
+</manifest>
