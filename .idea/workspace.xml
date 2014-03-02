@@ -17,20 +17,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f019036-9f81-4789-be87-877b529256fe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/circle.xml" afterPath="$PROJECT_DIR$/res/drawable/circle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/drawer_item.xml" afterPath="$PROJECT_DIR$/res/layout/drawer_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/animator/fade_in.xml" afterPath="$PROJECT_DIR$/res/animator/fade_in.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/animator/fade_out.xml" afterPath="$PROJECT_DIR$/res/animator/fade_out.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/home_fragment_layout.xml" afterPath="$PROJECT_DIR$/res/layout/home_fragment_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/map_fragment_layout.xml" afterPath="$PROJECT_DIR$/res/layout/map_fragment_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/path_fragment_layout.xml" afterPath="$PROJECT_DIR$/res/layout/path_fragment_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/path_item_layout.xml" afterPath="$PROJECT_DIR$/res/layout/path_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/place_fragment_layout.xml" afterPath="$PROJECT_DIR$/res/layout/place_fragment_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/place_item_layout.xml" afterPath="$PROJECT_DIR$/res/layout/place_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/recomendation_fragment_layout.xml" afterPath="$PROJECT_DIR$/res/layout/recomendation_fragment_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/obrero/cmycountry/dto/DrawerItem.java" afterPath="$PROJECT_DIR$/src/com/obrero/cmycountry/dto/DrawerItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/DrawerItemAdapter.java" afterPath="$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/DrawerItemAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/obrero/cmycountry/activities/Home.java" afterPath="$PROJECT_DIR$/src/com/obrero/cmycountry/activities/Home.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/HomeFragment.java" afterPath="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/HomeFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/MapFragment.java" afterPath="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/MapFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/obrero/cmycountry/dto/Path.java" afterPath="$PROJECT_DIR$/src/com/obrero/cmycountry/dto/Path.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/PathAdapter.java" afterPath="$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/PathAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/PathFragment.java" afterPath="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/PathFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/obrero/cmycountry/dto/Picture.java" afterPath="$PROJECT_DIR$/src/com/obrero/cmycountry/dto/Picture.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/obrero/cmycountry/dto/Place.java" afterPath="$PROJECT_DIR$/src/com/obrero/cmycountry/dto/Place.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/PlaceAdapter.java" afterPath="$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/PlaceAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/PlaceFragment.java" afterPath="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/PlaceFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/RecomendationsFragment.java" afterPath="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/RecomendationsFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/obrero/cmycountry/services/ServiceData.java" afterPath="$PROJECT_DIR$/src/com/obrero/cmycountry/services/ServiceData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/obrero/cmycountry/services/WallpaperService.java" afterPath="$PROJECT_DIR$/src/com/obrero/cmycountry/services/WallpaperService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CmyCountry.iws" />
@@ -100,114 +102,110 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home_fragment_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/home_fragment_layout.xml">
+      <file leaf-file-name="Home.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/activities/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding />
+            <state line="11" column="25" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2788">
+              <folding>
+                <element signature="e#2060#2072#0" expanded="true" />
+              </folding>
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map_fragment_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/map_fragment_layout.xml">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="15" selection-start="490" selection-end="490" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="path_fragment_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/path_fragment_layout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="608" selection-end="608" vertical-scroll-proportion="-5.1" vertical-offset="0" max-vertical-offset="374">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="path_item_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/path_item_layout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="21" selection-start="1716" selection-end="1716" vertical-scroll-proportion="-7.96" vertical-offset="299" max-vertical-offset="816">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="place_fragment_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/place_fragment_layout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="-0.34" vertical-offset="0" max-vertical-offset="289">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recomendation_fragment_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/recomendation_fragment_layout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="-0.34" vertical-offset="0" max-vertical-offset="340">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="238">
+            <state line="44" column="8" selection-start="2146" selection-end="2146" vertical-scroll-proportion="0.64908254" vertical-offset="465" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="circle.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable/circle.xml">
+      <file leaf-file-name="DrawerItemAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/DrawerItemAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="36" selection-start="172" selection-end="172" vertical-scroll-proportion="-2.72" vertical-offset="0" max-vertical-offset="187">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PathAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/PathAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlaceAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/PlaceAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PathFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/PathFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="31" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fade_out.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/animator/fade_out.xml">
+      <file leaf-file-name="Place.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/dto/Place.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.031365313" vertical-offset="0" max-vertical-offset="542">
-              <folding />
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <file leaf-file-name="PlaceFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/PlaceFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="1006" selection-end="1006" vertical-scroll-proportion="-8.16" vertical-offset="0" max-vertical-offset="510">
-              <folding />
+            <state line="19" column="19" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+              <folding>
+                <element signature="e#1387#1696#0" expanded="true" />
+                <element signature="e#1685#1686#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="RecomendationsFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/RecomendationsFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/HomeFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="179" max-vertical-offset="476">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -225,28 +223,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/Home.java" />
-        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/services/WallpaperService.java" />
-        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/HomeFragment.java" />
-        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/dto/Place.java" />
-        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/dto/Picture.java" />
-        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/dto/DrawerItem.java" />
-        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/DrawerItemAdapter.java" />
-        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/PathAdapter.java" />
-        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/dto/Path.java" />
-        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/RecomendationsFragment.java" />
-        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/PlaceAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/PlaceDetailsFragment.java" />
-        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/services/ServiceData.java" />
-        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/activities/Home.java" />
-        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/MapFragment.java" />
-        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/PlaceFragment.java" />
         <option value="$PROJECT_DIR$/gen/com/obrero/cmycountry/R.java" />
         <option value="$PROJECT_DIR$/res/layout/map_activity_layout.xml" />
         <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/activities/MapActivity.java" />
         <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/activities/PathDetails.java" />
         <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/activities/PathDetailsActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/PathFragment.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/path_details_layout.xml" />
         <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/PathDetails.java" />
         <option value="$PROJECT_DIR$/res/layout/place_details_fragment.xml" />
@@ -266,6 +248,22 @@
         <option value="$PROJECT_DIR$/res/drawable/circle.xml" />
         <option value="$PROJECT_DIR$/res/animator/fade_in.xml" />
         <option value="$PROJECT_DIR$/res/animator/fade_out.xml" />
+        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/dto/DrawerItem.java" />
+        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/MapFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/services/WallpaperService.java" />
+        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/PathFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/services/ServiceData.java" />
+        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/dto/Picture.java" />
+        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/dto/Path.java" />
+        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/dto/Place.java" />
+        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/DrawerItemAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/PathAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/PlaceAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/PlaceFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/RecomendationsFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/HomeFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/obrero/cmycountry/activities/Home.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -324,6 +322,182 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="CmyCountry" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCountry2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCountry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCountry2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmycountry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCountry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCountry2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmycountry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCountry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCountry2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmycountry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCountry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCountry2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmycountry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCountry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCountry2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmycountry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="broadcasts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCountry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCountry2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmycountry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appservices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCountry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCountry2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmycountry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCountry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCountry2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmycountry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -635,7 +809,7 @@
       <workItem from="1393674716511" duration="746000" />
       <workItem from="1393675799525" duration="14058000" />
       <workItem from="1393696880761" duration="40770000" />
-      <workItem from="1393761686656" duration="977000" />
+      <workItem from="1393761686656" duration="2559000" />
     </task>
     <task id="LOCAL-00001" summary=":D&#10;">
       <created>1393674844887</created>
@@ -645,37 +819,37 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68243000" />
+    <option name="totallyTimeSpent" value="69825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3306189" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.500813" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0016260162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5512195" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0016260162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21463415" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18655589" sideWeight="0.499187" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18655589" sideWeight="0.499187" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -755,7 +929,9 @@
     </entry>
     <entry file="file://$USER_HOME$/android-sdks/sources/android-16/android/widget/AdapterView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="304" column="7" selection-start="9414" selection-end="9414" vertical-scroll-proportion="12.587432" vertical-offset="0" max-vertical-offset="19788" />
+        <state line="304" column="7" selection-start="9414" selection-end="9414" vertical-scroll-proportion="12.587432" vertical-offset="0" max-vertical-offset="19788">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/android-sdks/sources/android-16/android/widget/Toast.java">
@@ -768,76 +944,20 @@
         <state line="1088" column="0" selection-start="41743" selection-end="41743" vertical-scroll-proportion="0.0" vertical-offset="17386" max-vertical-offset="27540" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/dto/Picture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="578" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/android-sdks/sources/android-16/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5136" column="0" selection-start="215948" selection-end="215948" vertical-scroll-proportion="0.18558559" vertical-offset="85373" max-vertical-offset="86632" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/PathAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="731">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/dto/Path.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="50" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="952" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/dto/DrawerItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="27" selection-start="393" selection-end="393" vertical-scroll-proportion="0.44894367" vertical-offset="0" max-vertical-offset="568" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/DrawerItemAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="24" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.23943663" vertical-offset="408" max-vertical-offset="1020" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/RecomendationsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="5" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.0" vertical-offset="129" max-vertical-offset="697">
+        <state line="5136" column="0" selection-start="215948" selection-end="215948" vertical-scroll-proportion="0.18558559" vertical-offset="85373" max-vertical-offset="86632">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/PlaceAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="731" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/HomeFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="347" selection-end="582" vertical-scroll-proportion="0.30063292" vertical-offset="75" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/services/WallpaperService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="5" selection-start="1612" selection-end="1612" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/dto/Place.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/PlaceDetailsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="0" selection-start="851" selection-end="1866" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1105">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1538#1864#0" expanded="true" />
-            <element signature="e#1853#1854#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1538#1864#0" expanded="false" />
+            <element signature="e#1853#1854#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -845,13 +965,6 @@
     <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="45" selection-start="430" selection-end="430" vertical-scroll-proportion="0.2693662" vertical-offset="0" max-vertical-offset="568" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/MapFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="519" selection-end="519" vertical-scroll-proportion="0.31748727" vertical-offset="0" max-vertical-offset="589">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/map_activity_layout.xml">
@@ -886,14 +999,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/activities/MapActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="918" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="25" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="782">
+        <state line="20" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="918">
           <folding>
-            <element signature="e#902#920#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -906,27 +1014,6 @@
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/PathFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="21" selection-start="1331" selection-end="1331" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1717">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/services/ServiceData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1496">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/PlaceFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1353" selection-end="1698" vertical-scroll-proportion="0.0" vertical-offset="115" max-vertical-offset="697">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/activities/PathDetailsActivity.java">
@@ -951,13 +1038,6 @@
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/activities/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="0" selection-start="4271" selection-end="4383" vertical-scroll-proportion="0.0" vertical-offset="1692" max-vertical-offset="2363">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/activities/PlaceDetailsActivity.java">
@@ -1074,20 +1154,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/circle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="36" selection-start="172" selection-end="172" vertical-scroll-proportion="-2.72" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/animator/fade_in.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="35" selection-start="279" selection-end="279" vertical-scroll-proportion="0.18819188" vertical-offset="0" max-vertical-offset="542">
@@ -1097,7 +1163,159 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/animator/fade_out.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.031365313" vertical-offset="0" max-vertical-offset="542">
+        <state line="6" column="62" selection-start="341" selection-end="341" vertical-scroll-proportion="0.18819188" vertical-offset="0" max-vertical-offset="542">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/circle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="36" selection-start="172" selection-end="172" vertical-scroll-proportion="0.120781526" vertical-offset="0" max-vertical-offset="563">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/dto/DrawerItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="27" selection-start="393" selection-end="393" vertical-scroll-proportion="0.43367347" vertical-offset="0" max-vertical-offset="588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/MapFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="25" selection-start="158" selection-end="158" vertical-scroll-proportion="0.14455782" vertical-offset="0" max-vertical-offset="588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/services/WallpaperService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="23" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1530">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1053#1440#0" expanded="true" />
+            <element signature="e#1429#1430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/services/ServiceData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="46" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/dto/Picture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding>
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/dto/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/dto/Place.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/PathFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="31" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/DrawerItemAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/PathAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/adapter/PlaceAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/PlaceFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="19" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+          <folding>
+            <element signature="e#1387#1696#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/RecomendationsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/fragments/HomeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="179" max-vertical-offset="476">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/obrero/cmycountry/activities/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="25" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2788">
+          <folding>
+            <element signature="e#2060#2072#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="8" selection-start="2146" selection-end="2146" vertical-scroll-proportion="0.64908254" vertical-offset="465" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>
