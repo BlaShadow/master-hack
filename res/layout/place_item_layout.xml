@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
@@ -41,24 +40,4 @@
                    android:layout_alignParentRight="true"
                    android:src="@drawable/location_icon"/>
     </RelativeLayout>
-
-=======
-<?xml version="1.0" encoding="utf-8"?>
-
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:padding="4dp">
-
-    <TextView android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-              android:textSize="15sp"
-              android:id="@+id/txt_name_item_place"/>
-
-    <TextView android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-              android:id="@+id/txt_descripcion_item_place"/>
-
->>>>>>> 0b18ee89ce8fddd39c61b81b4fd0a38ed4c35792
 </LinearLayout>

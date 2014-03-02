@@ -1,18 +1,7 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
-
 <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
                 android:propertyName="alpha"
                 android:valueType="floatType"
                 android:valueFrom="1"
                 android:valueTo="0"
-=======
-<?xml version="1.0" encoding="utf-8"?>
-
-<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
-                android:propertyName="alpha"
-                android:valueType="floatType"
-                android:valueFrom="1"
-                android:valueTo="0"
->>>>>>> 0b18ee89ce8fddd39c61b81b4fd0a38ed4c35792
                 android:duration="@android:integer/config_shortAnimTime" />
